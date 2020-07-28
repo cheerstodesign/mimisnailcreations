@@ -6976,7 +6976,7 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
   }
   .contact-window.popup-window {
     width: 100%;
-    max-width: 500px;
+    max-width: 80%;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
