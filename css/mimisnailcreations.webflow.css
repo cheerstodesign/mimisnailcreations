@@ -3782,7 +3782,7 @@ figcaption {
 .contact-window {
   position: static;
   overflow: hidden;
-  width: 500px;
+  width: 60%;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -8691,7 +8691,7 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
     margin-left: 0px;
   }
   .contact-window {
-    width: 300px;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-flex: 1;
