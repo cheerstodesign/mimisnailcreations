@@ -8691,7 +8691,7 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
     margin-left: 0px;
   }
   .contact-window {
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-flex: 1;
