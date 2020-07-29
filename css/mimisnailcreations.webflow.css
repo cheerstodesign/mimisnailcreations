@@ -3673,6 +3673,7 @@ figcaption {
 
 .hero-promo-social-link {
   display: inline-block;
+  overflow: visible;
   width: 32px;
   height: 32px;
   -webkit-box-pack: center;
@@ -5999,6 +6000,7 @@ figcaption {
 }
 
 .html-embed {
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -6006,6 +6008,8 @@ figcaption {
 .container {
   margin-right: auto;
   margin-left: auto;
+  padding: 0px 40px 20px;
+  background-color: #fff;
 }
 
 .sectioncalendar {
@@ -6013,6 +6017,10 @@ figcaption {
   margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
+  background-image: url('../images/nails8.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -6976,7 +6984,7 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
   }
   .contact-window.popup-window {
     width: 100%;
-    max-width: 80%;
+    max-width: 500px;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8);
@@ -7249,6 +7257,9 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
     -webkit-flex-basis: 40%;
     -ms-flex-preferred-size: 40%;
     flex-basis: 40%;
+  }
+  .html-embed {
+    margin-top: 20px;
   }
 }
 
@@ -7941,6 +7952,9 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
     padding-bottom: 24px;
     padding-left: 32px;
   }
+  .contact-window {
+    width: 90%;
+  }
   .hero-promo-bottom {
     position: absolute;
   }
@@ -8106,6 +8120,13 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
     padding-left: 24px;
     font-size: 15px;
     line-height: 40px;
+  }
+  .html-embed {
+    margin-top: 20px;
+  }
+  .sectioncalendar {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -8996,6 +9017,10 @@ html.w-mod-js *[data-ix="float-subcribe-card"] {
   .text-block-7 {
     font-size: 42px;
     line-height: 40px;
+  }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
